@@ -1,0 +1,28 @@
+# Arduino build files
+*.bin
+*.elf
+*.hex
+
+# macOS and Linux system files
+.DS_Store
+
+# IDE folders
+.vscode/
+*.code-workspace
+
+# Compiled object files
+*.o
+*.a
+*.so
+
+# Logs and temp
+*.log
+*.tmp
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# PlatformIO
+.pio/
