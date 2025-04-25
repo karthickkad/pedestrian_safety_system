@@ -24,11 +24,13 @@ A smart crosswalk system that enhances pedestrian safety using IR sensors, ultra
 - `Images/`: Photos of the prototype (if any).
 
 ## 📷 Demo
-*(Add GIF/image or link to a video demo)*
+
+![pedestrian safety system  (1)](https://github.com/user-attachments/assets/8bf2f925-16f9-40c3-8892-497b89624377)
+![pedestrian safety system  (2)](https://github.com/user-attachments/assets/7b34d9e6-657e-4009-ac12-e7d5f2441ac3)
 
 ## 🔒 License
 This project is licensed under the MIT License.
 
 ---
 
-> Developed by [Your Name]
+> Developed by karthick.B
