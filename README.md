@@ -1,36 +1,37 @@
-# Pedestrian Safety System 🚦
+# 🚦 Pedestrian Safety System using IoT
 
-A smart crosswalk system that enhances pedestrian safety using IR sensors, ultrasonic sensors, and NeoPixel LEDs.
+This project is an IoT-based Pedestrian Safety System that uses IR sensors, ultrasonic sensors, and NeoPixel LEDs to detect pedestrian presence and control crosswalk lighting and smart streetlights.
 
-## 🛠️ Features
-- Detects pedestrians at entry, center, and exit using IR and ultrasonic sensors
-- Controls crosswalk lighting with NeoPixel LEDs (Green, Orange, Red)
-- Activates a buzzer in emergency situations (simultaneous vehicle and pedestrian detection)
-- Controls smart streetlight brightness based on detection
-- Real-time pedestrian and vehicle monitoring
+## 🌟 Features
+- Detects pedestrians at three crosswalk positions (entry, mid, exit)
+- Detects vehicles using ultrasonic sensors
+- Uses PIR motion sensors for early pedestrian detection
+- NeoPixel LEDs indicate crosswalk status (Green, Orange, Red)
+- Buzzer triggers emergency alert when pedestrian and vehicle are detected together
+- Simulated input using potentiometers
 
-## 🧰 Hardware Used
-- ESP32 / Arduino Uno
-- TCRT5000 IR Sensors
-- HC-SR04 Ultrasonic Sensors
-- PIR Sensors
-- WS2812B NeoPixel LED
-- Buzzer
-- Potentiometers (for simulation)
+## 🧠 System Overview
+- **IR Sensors**: Detect footstep at three crosswalk points
+- **Ultrasonic Sensors**: Detect vehicles and standing pedestrians
+- **PIR Sensors**: Sense approaching pedestrian motion
+- **NeoPixel LED**: Replaces a strip to show status using one light
+- **Buzzer**: Used in emergency cases
+- **Potentiometers**: Used in place of actual IR sensors for testing
 
-## 📦 Folder Structure
-- `Arduino_Code/`: Contains the main `.ino` file for the system.
-- `Schematics/`: Circuit diagram and connection details.
-- `Images/`: Photos of the prototype (if any).
+## 🛠️ Components Used
+| Component             | Quantity |
+|----------------------|----------|
+| IR Sensor (TCRT5000) | 3        |
+| Ultrasonic Sensor    | 4        |
+| PIR Motion Sensor    | 2        |
+| NeoPixel LED         | 1        |
+| Buzzer               | 1        |
+| ESP32 / Arduino Uno  | 1        |
+| Potentiometer        | 3        |
 
 ## 📷 Demo
 
 ![pedestrian safety system  (1)](https://github.com/user-attachments/assets/8bf2f925-16f9-40c3-8892-497b89624377)
 ![pedestrian safety system  (2)](https://github.com/user-attachments/assets/7b34d9e6-657e-4009-ac12-e7d5f2441ac3)
-
-## 🔒 License
-This project is licensed under the MIT License.
-
----
 
 > Developed by karthick.B
